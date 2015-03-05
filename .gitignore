@@ -18,3 +18,4 @@ ror/tmp/*
 
 # Ignore Eclipse IDE .project file
 .project
+.settings/

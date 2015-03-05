@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>UniBd2015</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title><%= content_for?(:title) ? yield(:title) : 'Bases de Datos 2015 - Ingeniería Informática - UNI' %></title>
+		<meta name="description" content="<%%= content_for?(:description) ? yield(:description) : 'Laboratorio de Bases de Datos' %>">
+		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= csrf_meta_tags %>
+		<!--[if lt IE 9]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+		<![endif]-->
+	</head>
+	<body data-controller="<%= controller_path %>" data-action="<%= action_name %>">
+		<div id="main" class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<%= yield %>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
