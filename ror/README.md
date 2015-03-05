@@ -7,7 +7,7 @@
 ### Database
 
 * SQLite (antes del TP #1)
-* PostgreSQL (luego del TP#1)
+* PostgreSQL (luego del TP#1, ver en la descripción en https://github.com/hisapy/uni-bd-2015/milestones)
 
 ### Deployment Instructions (development)
 
