@@ -21,7 +21,9 @@ Actualmente el sistema ya cuenta con un simple ABM o CRUD para resources :users.
 
 **bin/rake routes**
 
-Los issues correspondientes a este trabajo se encuentran en https://github.com/hisapy/uni-bd-2015/milestones en el milestone **TP #1 - Instalación y Configuración**
+Los issues correspondientes a este trabajo se encuentran en https://github.com/hisapy/uni-bd-2015/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc+milestone%3A%22TP+%231+-+Instalaci%C3%B3n+y+Configuraci%C3%B3n%22
+
+Los detalles del milestone se pueden ver en https://github.com/hisapy/uni-bd-2015/milestones, **TP #1 - Instalación y Configuración**
 
 ### Tiempo necesario estimado 
 
