@@ -38,3 +38,6 @@ En la sección [issues](https://github.com/hisapy/uni-bd-2015/issues) de este re
 
 Todos los archivos entregados por los alumnos deberán tener encoding utf-8.
 
+#### Ruby on Rails
+
+En el directorio **ror** se encuentra una app Ruby on Rails, la cual tiene su propio README.
