@@ -19,3 +19,6 @@ ror/tmp/*
 # Ignore Eclipse IDE .project file
 .project
 .settings/
+
+# Ignore database conf
+ror/config/database.yml

@@ -3,7 +3,7 @@ development:
   encoding: utf8
   database: uni_bd_2015_development
   pool: 5
-  username: hisa
+  username: 
   password: 
 
 test:
@@ -11,5 +11,5 @@ test:
   encoding: utf8
   database: uni_bd_2015_test
   pool: 5
-  username: hisa
+  username: 
   password: 
