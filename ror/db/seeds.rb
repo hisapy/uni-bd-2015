@@ -8,8 +8,12 @@
 ].each do | user_attrs |
   begin
     User.create user_attrs
-  rescue => e
+  rescue ActiveRecord::RecordNotUnique => e
     puts e.message
+    puts 'Trying to update user'
+    u = User.find_by!(username: user_attrs[:username])
+    u.update_attributes! user_attrs
+    puts "User #{u.username} successfully updated"
   end  
 end
 
