@@ -1,0 +1,4 @@
+es:
+  errors:
+    user:
+      missing_profile_page: 'El usuario aún no ha creado su página de perfil'
