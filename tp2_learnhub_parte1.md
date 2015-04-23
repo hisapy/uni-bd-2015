@@ -16,7 +16,7 @@ Por último, dado todo el código proveído, se espera que el alumno adquiera el
 
 En la parte 1 de este trabajo, se establecerán los mínimos requerimientos para este sistema, empezando por la creación de usuarios desde el archivo db/seeds.rb, y la creación de sus propias vistas para ver su perfil.
 
-El código actual contiene todo lo necesario para utilizar **Bootstrap 3**. Por otro lado, se han agregado las gems **cucumber** y **rspec** las cuales se utilizan para la práctica de Behaviour Driven Developer (BDD). Se puede ver en el directorio features como se ha especificado el feature de Profile Page, y en spec/ los distintos tests funcionales y unitarios de algunos componentes.
+El código actual contiene todo lo necesario para utilizar **Bootstrap 3**. Por otro lado, se han agregado las gems relacionadas con **cucumber** y **rspec** las cuales se utilizan para la práctica de Behaviour Driven Developer (BDD). Se puede ver en el directorio features como se ha especificado el feature de Profile Page, y en spec/ los distintos tests funcionales y unitarios de algunos componentes.
 
 1. Leer el código y navegar los commits en github para familiarisarze con el mismo.
 
