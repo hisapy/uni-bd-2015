@@ -6,7 +6,7 @@ require 'rspec/rails'
 require 'shoulda/matchers'
 require 'minitest/autorun'
 require 'factory_girl'
-require 'email_spec'
+# require 'email_spec'
 # require "cancan/matchers"
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
