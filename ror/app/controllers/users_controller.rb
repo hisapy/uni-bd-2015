@@ -13,7 +13,14 @@ class UsersController < ApplicationController
     @user = User.find_by!(username: params[:username])
 
     respond_to do | format |
-      format.html { render "users/#{@user.username}/show" }
+      format.html {
+        begin
+          render "users/#{@user.username}/show" 
+        rescue ActionView::MissingTemplate => e
+          flash[:alert] = I18n.t!('errors.user.missing_profile_page')
+          redirect_to users_path 
+        end
+      } 
     end
   end
 
