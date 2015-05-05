@@ -15,7 +15,7 @@ Feature: User Profile page
 		
 		Examples:
 			| first_name 	| last_name | username |
-			| Hisa				|	Ishibashi | hisa		 | 
-
+			| Hisa				|	Ishibashi | hisa		 |
+			| Tania				|	Monges | tmonges		 |
 
 

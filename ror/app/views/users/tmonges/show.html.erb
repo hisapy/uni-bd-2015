@@ -1,0 +1,28 @@
+<h1 class="page-header"><%= @user.username %></h1>
+<div class="container panel-body" style="background: cornsilk">
+  <div class="col-md-12">
+    <div class="row">
+      <label>Nombre: </label>
+      <%= @user.first_name %>
+    </div>
+    <div class="row">
+      <label>Apellido: </label>
+      <%= @user.last_name %>
+    </div>
+    <div class="row">
+      <label>Año: </label>
+      <%= @user.age %>
+    </div>
+    <div class="row">
+      <label>Email: </label>
+      <%= @user.email %>
+    </div>
+    <div class="row">
+      <label>Github Url: </label>
+      <%= link_to @user.github_url, @user.github_url %>
+    </div>
+    <div class="row">
+      <%= link_to 'Atrás', users_path, class: 'btn btn-primary' %>
+    </div>
+  </div>
+</div>

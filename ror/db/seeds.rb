@@ -4,7 +4,8 @@
 
 # Seed users here
 [
-  {first_name: 'Hisa', last_name: 'Ishibashi', username: 'hisa', age: 32, email: 'hisa@iporaitech.com', github_url: 'https://github.com/hisapy' }
+  {first_name: 'Hisa', last_name: 'Ishibashi', username: 'hisa', age: 32, email: 'hisa@iporaitech.com', github_url: 'https://github.com/hisapy' },
+  {first_name: 'Tania', last_name: 'Monges', username: 'tmonges', age: 20, email: 'taniamonges@gmail.com', github_url: 'https://github.com/taniamonges' }
 ].each do | user_attrs |
   begin
     User.create user_attrs
