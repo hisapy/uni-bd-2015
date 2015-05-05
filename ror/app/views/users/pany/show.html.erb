@@ -1,0 +1,14 @@
+<BODY BGCOLOR="green">
+<p>
+	<b>Este es mi show temporal, luego lo mejorare.</b>
+</p>
+<dl>
+	<dt>Nombre:&nbsp;</dt>
+	<dd><%= @user.first_name %></dd>
+	<dt>Apellido:&nbsp;</dt>
+	<dd><%= @user.last_name %></dd>
+	<dt>Nombre de usuario:&nbsp;</dt>
+	<dd><%= @user.username %></dd>
+	<dt>Gihub URL:&nbsp;</dt>
+	<dd><%= link_to @user.github_url, @user.github_url %></dd>
+</dl>
