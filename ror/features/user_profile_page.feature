@@ -17,6 +17,7 @@ Feature: User Profile page
 			| first_name 	| last_name | username |
 			| Hisa				|	Ishibashi | hisa		 |
 			| Tania				|	Monges | tmonges		 |
-			| Jerson			|	Paniagua  | pany		 | 
+			| Jerson			|	Paniagua  | pany		 |
+			| Alex				|	Jiñe | ajines		 | 
 
 
