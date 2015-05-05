@@ -1,12 +1,38 @@
-<dl>
-<body style="background:#17A86B">
-<span style="color:#F3FF00">
-	<dt><h3><b>Nombre:&nbsp;<b><h3></dt>
-	<dd><%= @user.first_name %></dd>
-	<dt><b><h3>Apellido:&nbsp;<b><h3></dt>
-	<dd><%= @user.last_name %></dd>
-	<dt><b><h3>Nombre de usuario:&nbsp;<b><h3></dt>
-	<dd><%= @user.username %></dd>
-	<dt><b><h3>Gihub URL:&nbsp;<b><h3></dt>
-	<dd><%= link_to @user.github_url, @user.github_url %></dd>
-</dl>
+<style>
+	body {
+		background: #17A86B
+	}
+	.alex{
+		color:#F3FF00
+	}
+</style>
+
+<div class='alex'>
+    <dl>
+        <dt>
+            <h3><b>Nombre:&nbsp;<b><h3>
+        </dt>
+        <dd>
+            <%= @user.first_name %>
+        </dd>
+        <dt>
+            <b><h3>Apellido:&nbsp;<b><h3>
+        </dt>
+        <dd>
+            <%= @user.last_name %>
+        </dd>
+        <dt>
+            <b><h3>Nombre de usuario:&nbsp;<b><h3>
+        </dt>
+        <dd>
+            <%= @user.username %>
+        </dd>
+        <dt>
+            <b><h3>Gihub URL:&nbsp;<b><h3>
+        </dt>
+        <dd>
+            <%= link_to @user.github_url, @user.github_url %>
+        </dd>
+
+    </dl>
+</div>
